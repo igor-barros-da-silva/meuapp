@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".Menu">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/lanterna"
+            android:src="@drawable/lanterna" style="@style/botoes" />
+        <Space style="@style/espaco" />
+
+        <ImageButton
+            android:id="@+id/nivel"
+            android:src="@drawable/nivel" style="@style/botoes" />
+        <Space style="@style/espaco" />
+
+        <ImageButton
+            android:id="@+id/musica"
+            style="@style/botoes"
+            android:src="@drawable/musica" />
+        <Space style="@style/espaco" />
+
+    </LinearLayout>
+
+</FrameLayout>
